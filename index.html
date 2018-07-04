@@ -1,0 +1,746 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Learning LESS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="stylesheet/css/style.css">
+</head>
+
+<body>
+    <header class="fixed-top">
+        <div class="header dark-bg" id="navbar-example">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg" id="navbar-example3">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"/><span></span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="glyphicon glyphicon-align-justify"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link smoothScroll" href="#item-1">Portfolio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smoothScroll" href="#item-2">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smoothScroll" href="#item-3">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smoothScroll" href="#item-4">Get in Touch</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <span class="arrow"></span>
+        </div>
+    </header>
+    <div data-spy="scroll" data-target="#navbar-example3" data-offset="0" class="scrollspy-example">
+        <section class="section white-bg" id="item-1">
+            <div class="container">
+                <div class="banner-section">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <ul class="categories" class="clr">
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img1.jpg" alt="img1">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img2.jpg" alt="img2">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img3.jpg" alt="img3">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img4.jpg" alt="img4">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img5.jpg" alt="img5">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img6.jpg" alt="img6">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img7.jpg" alt="img7">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img8.jpg" alt="img8">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img9.jpg" alt="img9">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img10.jpg" alt="img10">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img11.jpg" alt="img11">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img12.jpg" alt="img12">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img13.jpg" alt="img13">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item">
+                                <ul class="categories" class="clr">
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img1.jpg" alt="img1">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img2.jpg" alt="img2">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img3.jpg" alt="img3">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img4.jpg" alt="img4">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img5.jpg" alt="img5">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img6.jpg" alt="img6">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img7.jpg" alt="img7">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img8.jpg" alt="img8">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img9.jpg" alt="img9">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img10.jpg" alt="img10">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img11.jpg" alt="img11">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img12.jpg" alt="img12">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img13.jpg" alt="img13">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item">
+                                <ul class="categories" class="clr">
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img1.jpg" alt="img1">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img2.jpg" alt="img2">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img3.jpg" alt="img3">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img4.jpg" alt="img4">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img5.jpg" alt="img5">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img6.jpg" alt="img6">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img7.jpg" alt="img7">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img8.jpg" alt="img8">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img9.jpg" alt="img9">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img10.jpg" alt="img10">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img11.jpg" alt="img11">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img12.jpg" alt="img12">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img13.jpg" alt="img13">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item">
+                                <ul class="categories" class="clr">
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img1.jpg" alt="img1">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img2.jpg" alt="img2">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img3.jpg" alt="img3">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img4.jpg" alt="img4">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img5.jpg" alt="img5">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img6.jpg" alt="img6">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img7.jpg" alt="img7">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img8.jpg" alt="img8">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img9.jpg" alt="img9">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img10.jpg" alt="img10">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img11.jpg" alt="img11">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img12.jpg" alt="img12">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img13.jpg" alt="img13">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item">
+                                <ul class="categories" class="clr">
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img1.jpg" alt="img1">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img2.jpg" alt="img2">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img3.jpg" alt="img3">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img4.jpg" alt="img4">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img5.jpg" alt="img5">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img6.jpg" alt="img6">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img7.jpg" alt="img7">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img8.jpg" alt="img8">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img9.jpg" alt="img9">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img10.jpg" alt="img10">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img11.jpg" alt="img11">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img12.jpg" alt="img12">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img13.jpg" alt="img13">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item">
+                                <ul class="categories" class="clr">
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img1.jpg" alt="img1">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img2.jpg" alt="img2">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img3.jpg" alt="img3">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img4.jpg" alt="img4">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img5.jpg" alt="img5">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img6.jpg" alt="img6">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img7.jpg" alt="img7">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img8.jpg" alt="img8">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img9.jpg" alt="img9">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li class="pusher"></li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img10.jpg" alt="img10">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img11.jpg" alt="img11">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img12.jpg" alt="img12">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="images/img13.jpg" alt="img13">
+                                            <h1>This is a title</h1>
+                                            <p>Some sample text about the article this hexagon leads to</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section mygreen-bg" id="item-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 left-col clr">
+                        <div class="profile-img-wrapper hexagon">
+                            <div class="profile-img">
+                                <img src="images/profileImg.jpg" alt="profileimg" class="img-src">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12 right-col">
+                        <h3>Smith Anderson</h3>
+                        <h4>Illustrator &amp; Character Designer</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+                        <div class="social-media float-right">
+                            <ul>
+                                <li><a href="#"><img src="images/fb.png" alt="imgage"/></a></li>
+                                <li><a href="#"><img src="images/tw.png" alt="imgage"/></a></li>
+                                <li><a href="#"><img src="images/gplus.png" alt="imgage"/></a></li>
+                                <li><a href="#"><img src="images/pt.png" alt="imgage"/></a></li>
+                                <li><a href="#"><img src="images/dr.png" alt="imgage"/></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section dark-bg" id="item-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12 left-col">
+                        <h3>Get In Touch</h3>
+                        <h4>In order to get in touch use the contact form below:</h4>
+                        <form data-toggle="validator" role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name (Required)" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email (Required)" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message here..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary float-right">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-sm-12 right-col">
+                        <p><span>Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae</p>
+                        <ul class="contact-info">
+                            <li><a href="#">Elm St. 14/05 Lost City</a></li>
+                            <li><a href="tel:+ 3528 331 86 35"> + 3528 331 86 35 </a></li>
+                            <li><a href="mailto:info@hexalcorp.com">info@hexalcorp.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="item-4">
+            <div class="footer">
+                <div class="container">
+                    <p>&copy; Copyright 2013 by PSDchat</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Js -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript">
+    function menuCLoseFunc(obj, prntObj){
+        $(obj).on('click', function(){
+            if($(prntObj).hasClass("show"))
+            {
+                $(prntObj).removeClass("show");
+            }
+            else{
+                $(prntObj).addClass("show");
+            }
+        })
+    }
+    $(document).ready(function() {
+        $('body').scrollspy({ target: '#navbar-example3' })
+        $('.scrollspy-example').css('margin-top',$('.header').height());
+
+        menuCLoseFunc('.nav-link',".navbar-collapse");
+    })
+    </script>
+</body>
+
+</html>
